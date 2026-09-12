@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Bot - Termini e Privacy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #1e293b;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            color: #38bdf8;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #38bdf8;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+        p, li {
+            color: #cbd5e1;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zero Bot</h1>
+        <p style="text-align: center; color: #94a3b8;">Documentazione ufficiale per la conformità e la sicurezza</p>
+
+        <section id="terms">
+            <h2>Termini di Servizio (Terms of Service)</h2>
+            <p>Benvenuto a bordo di <strong>Zero Bot</strong>. Utilizzando il nostro bot all'interno dei server Discord, accetti integralmente i seguenti termini:</p>
+            <ul>
+                <li><strong>Utilizzo consentito:</strong> Il bot deve essere utilizzato nel rispetto delle linee guida della community e dei Termini di Servizio di Discord. È severamente vietato tentare di sfruttare bug, sovraccaricare i comandi o usare il bot per attività illecite.</li>
+                <li><strong>Disponibilità del servizio:</strong> Il servizio viene fornito "così com'è". Gli sviluppatori non si assumono la responsabilità di eventuali interruzioni temporanee o perdite di dati dovute a manutenzione o problemi di hosting.</li>
+                <li><strong>Modifiche:</strong> I presenti termini possono essere aggiornati in qualsiasi momento per riflettere nuove funzionalità o requisiti di sicurezza.</li>
+            </ul>
+        </section>
+
+        <section id="privacy">
+            <h2>Informativa sulla Privacy (Privacy Policy)</h2>
+            <p>La tua privacy è di fondamentale importanza per noi. Questa informativa spiega quali dati raccogliamo e come li gestiamo:</p>
+            <ul>
+                <li><strong>Dati raccolti:</strong> Zero Bot raccoglie esclusivamente i dati necessari al corretto funzionamento delle sue funzionalità (come ID utente, ID dei server, ID dei canali e configurazioni dei comandi come i setup di stato o le preferenze di verifica). Non raccogliamo né memorizziamo messaggi privati o dati sensibili personali.</li>
+                <li><strong>Conservazione dei dati:</strong> I dati di configurazione vengono salvati in modo sicuro all'interno del database o dei file di configurazione locali del bot e vengono utilizzati unicamente per garantire la persistenza dei comandi nei server.</li>
+                <li><strong>Condivisione dei dati:</strong> I dati degli utenti non vengono in alcun modo venduti, ceduti o condivisi con terze parti.</li>
+                <li><strong>Cancellazione dei dati:</strong> Se desideri che i dati relativi al tuo server vengano eliminati, puoi rimuovere il bot o contattare l'amministratore per richiedere la pulizia dei file di configurazione.</li>
+            </ul>
+        </section>
+
+        <div class="footer">
+            <p>&copy; 2026 Zero Bot. Tutti i diritti riservati.</p>
+        </div>
+    </div>
+</body>
+</html>
